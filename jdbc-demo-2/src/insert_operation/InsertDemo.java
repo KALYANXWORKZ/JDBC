@@ -38,7 +38,7 @@ public class InsertDemo {
 			System.out.println("No of Rows Inserted : " + noOfRowsInserted);
 		} catch (Exception e) {
 			e.printStackTrace();
-		}
+		} 
 		finally {
 			connection.close();
 			
